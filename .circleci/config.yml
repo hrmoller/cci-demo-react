@@ -32,7 +32,7 @@ jobs:
 
       - run:
           name: Install test tools
-          command: npm install jest-junit jest-cli jest
+          command: npm install jest-junit jest-cli
 
       # run tests!
       - run:
